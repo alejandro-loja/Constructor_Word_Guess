@@ -1,0 +1,22 @@
+{
+  "name": "constructor_word_guess",
+  "version": "1.0.0",
+  "description": "Word Guess App using constructors in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-loja/Constructor_Word_Guess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alejandro-loja/Constructor_Word_Guess/issues"
+  },
+  "homepage": "https://github.com/alejandro-loja/Constructor_Word_Guess#readme"
+}
