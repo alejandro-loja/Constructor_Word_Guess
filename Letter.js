@@ -5,7 +5,7 @@ function Letter(oneLetter){
     this.guessedOrNot = false;
     this.returnOneLetter = function (){
         if (this.guessedOrNot){
-            return this.oneLetter;
+            return (" " + this.oneLetter + " ");
         }
         else {
             return " _ ";
@@ -14,10 +14,10 @@ function Letter(oneLetter){
     this.isLetter = function (guess) {
         if (guess === this.oneLetter){
             this.guessedOrNot = true;
-            return "correct!";
+            // return "correct!";
         }
         else {
-            return "Wrong Letter.";
+            // return "Wrong Letter.";
         }
     }
 }
